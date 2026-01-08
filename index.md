@@ -1,4 +1,4 @@
 ---
-title: Welcome to my (author's) personal website
+title: Henry's website
 ---
 
