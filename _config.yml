@@ -1,13 +1,14 @@
 # theme: modernist
 remote_theme: pages-themes/modernist@v0.2.0
-title: seafloorsegue.net
-description: [A short description of your site's purpose]
-author: [@henry.pfc | @Hexkel]
+title: "seafloorsegue.net"
+description: "A short description of your site's purpose"
+author: "@henry.pfc | @Hexkel"
 
 show_downloads: "false"
 
 plugins:
 - jekyll-remote-theme
+
 
 
 
