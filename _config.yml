@@ -1,10 +1,11 @@
 # theme: modernist
 remote_theme: pages-themes/modernist@v0.2.0
 title: "seafloorsegue.net"
-description: "My (Henry's) personal website where I make blog posts instead of posting on social media"
-author: "@henry.pfc | @Hexkel"
+description: "My (Henry's) personal blog"
+author: "Henry"
 
 show_downloads: false
 
 plugins:
 - jekyll-remote-theme
+
