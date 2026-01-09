@@ -5,9 +5,10 @@ description: "My (Henry's) personal blog"
 author: "Henry"
 
 show_downloads: false
-paginate: true
+paginate: false
 
 plugins:
 - jekyll-remote-theme
+
 
 
