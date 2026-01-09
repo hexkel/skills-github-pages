@@ -3,8 +3,6 @@ layout: default
 ---
 
 <section>
-
-{{ content }}
     <h1>THIS IS THE 'POST' LAYOUT</h1>
 
     {% if site.paginate %}
@@ -61,5 +59,7 @@ layout: default
         </div>
       {%- endif %}
     {%- endif -%}
+
+    {{ content }}
 
 </section>
