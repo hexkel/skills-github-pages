@@ -39,3 +39,16 @@ layout: default
 <article class="post">
   {{ content }}
 </article>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    document
+      .querySelectorAll(".post a[href^='http']")
+      .forEach(link => {
+        if (!link.href.startsWith(window.location.origin)) {
+          link.target = "_blank";
+          link.rel = "noopener noreferrer";
+        }
+      });
+  });
+</script>
