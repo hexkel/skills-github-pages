@@ -35,6 +35,7 @@
       <section>
 
       {{ content }}
+          <h1>THIS IS THE 'POST' LAYOUT</h1>
 
           {% if site.paginate %}
             {% assign posts = paginator.posts %}
